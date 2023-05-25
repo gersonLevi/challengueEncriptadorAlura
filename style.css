@@ -115,7 +115,7 @@ main{
     color: #32547d;
     font-size: 3em;
     transition: transform 0.2s ease-in-out;
-    border: none; 
+    border: none;
     background-color: transparent; 
     cursor: pointer; 
 }
