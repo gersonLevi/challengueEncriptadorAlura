@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Challeng Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/Logo.png" alt="Logo de alura">
+    </header>
+    <main>
+        <section class="contenedor-uno">
+            <div class="contenedor-principal">
+                <textarea class="textarea-entrada" placeholder="Ingresa el texto aquí"></textarea>
+                <div class="contenedor-advertencia">
+                    <img class="advertencia" src="img/advertencia.png" alt="Sinbolo de advertencia">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="contenedor-botones">
+                    <button class="btn-encriptar" type="button">Encriptar</button>
+                    <button class="btn-desencriptar" type="button">Desencriptar</button>
+                    <button class="btnLimpiar"><i class="fas fa-eraser"></i>                </button>    
+                </div>
+            </div>
+        </section>
+        <section class="contenedor-dos">
+                <div class="contenedor-secundario">
+                    <textarea id="textarea-salida" class="textarea-salida" readonly></textarea>
+                    <div class="contenedor-parrafos" >
+                    <h3>Ningún mensaje fue encontrado</h3>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+                    <button class="btn-copiar" type="button">Copiar</button>
+                </div>
+        </section>
+        <div id="div-alerta" class="alerta">
+            <div class="contenido-alerta">
+                <i class="fas fa-exclamation-circle"></i>
+                <p><span>!OOOPS¡</span><br> No se encontro ningún texto</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>By Gerson Gonzales Urbina</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
